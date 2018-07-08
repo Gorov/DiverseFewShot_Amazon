@@ -1,0 +1,1 @@
+python run_aggClassProb_generic_dcc.py --cuda --gpu 0 --targetid books.t2 --epochs 40 --nhid 200 --winsize 3 --lr 0.1 --batch-size 10 --emfiledir .. --emfilename glove.6B --emsize 100 --workingdir . --filelist workspace.filtered.list --trgfilelist workspace.target.list --load-path simplified_cnn_models --resume-snapshot best_model.h200
